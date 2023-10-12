@@ -1,0 +1,30 @@
+.search{
+    display: flex;
+    align-items: center;
+    width:90%;
+}
+.searchInput{
+    width:100%;
+    height: 1.45rem;
+    margin-right: 0.15rem;
+    font-size: 0.825rem;
+    color:#fff;
+    padding-left: 0.5rem;
+    border:0.5px solid var(--color-gray);
+    background-color: var(--color-black);
+}
+.searchInput:focus{
+    border-color:#f44133;
+    outline: 0;
+}
+.searchBtn{
+    background-color: var(--color-gray);
+    height: 1.455rem;
+    width: 4rem;
+    margin-left:0;
+}
+.searchIcon{
+    width: 0.8rem;
+    height: 0.8rem;
+    color: var(--color-middle-gray);
+}

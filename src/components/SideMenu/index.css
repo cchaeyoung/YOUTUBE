@@ -1,0 +1,25 @@
+.sideMenu{
+    position:fixed;
+    left:0;
+    top:0;
+    display: flex;
+    flex-direction: column;
+    padding: 2.8rem 0;
+    height: 100vh;
+    background-color:var(--color-dark-gray);
+}
+
+.sideBtn{
+    padding: 1rem;
+    font-size: 0.4rem;
+    color:var(--color-light-gray);
+}
+.sideBtn:hover{
+    background-color: var(--color-gray);
+}
+.sideBtn i{
+    display: block;
+    margin: auto;
+    font-size: 0.825rem;
+    padding-bottom: 0.3rem;
+}
